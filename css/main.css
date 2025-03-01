@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css");
+body{
+    font-family: "poppins",verdana;
+}
+
+/*  Navbar styling */
+
+.i2{
+    border: 2px solid white;
+margin:5px;
+color:white;
+    
+}
+
+.i2:hover{
+    border: 2px solid #fd7e14;
+    background-color: white;
+    color: black;
+}
+.navbar{
+    background-color:#fd7e14;
+}
+
+.nav-link{
+    color: white; 
+    margin:10px;
+}
+
+/* Hero-section */
+.hero{
+    background-color: #fd7e14;
+}
+img{
+    padding: 10px;
+    margin: 5px;
+    border: 5px solid white;
+} 
+i{
+    font-size: 30px;
+    color: white;
+}
+
+/*  Services */
+.i3{
+font-size:60px;
+color: grey;
+}
+
+.s-title{
+    color:#fd7e14;
+}
+
+/* Image animation */
+img {
+    transition: transform 0.3s ease-in-out, filter 0.3s ease-in-out;
+}
+
+img:hover {
+    transform: scale(0.9);
+    filter: brightness(1.3); /* Increases brightness on hover */
+}
+
+/*  Skills set */
+/* Container Styling */
+
+.skill-container {
+    background: #f8f9fa;
+    padding: 20px;
+    border-radius: 10px;
+    /* box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); */
+}
+.progress {
+    height: 25px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.progress-bar {
+    font-weight: bold;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Testimonials */
+
+.testimonial-container {
+    max-width: 700px;
+    margin: auto;
+    background: #a0bedc;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+.testimonial-img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border: 4px solid #fff;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+.testimonial-text {
+    font-style: italic;
+    color: #272525;
+}
+.testimonial-name {
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: 10px;
+}
+.testimonial-social {
+    color: #007bff;
+    text-decoration: none;
+    font-size: 14px;
+}
+.carousel-indicators button {
+    background-color: #007bff;
+}
+
+/* Footer */
+.ii{
+    color: #fd7e14;
+}
+
+.ef{
+    color:#fd7e14;
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
+
+.footer1{
+    color:#fd7e14;
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    list-style: none;
+}
